@@ -1,46 +1,5 @@
-:root {
-  --background-color1: rgb(100, 125, 100);
-  --background-color2: rgb(100, 150, 100);
-}
-
 * {
   margin: 0;
   padding: 0;
   background-color: rgb(100, 125, 100);
 }
-
-.App {
-  text-align: center;
-}
-
-header {
-  border: solid 1px black;
-  background-color: var(--background-color2); 
-  text-align: left;
-}
-h3 {
-  margin-left: 10px;
-  background-color: var(--background-color2); 
-}
-.x-icon {
-  background-color: var(--background-color2); 
-  margin-left: auto;
-  display: inline-block;
-  justify-content: end;
-}
-
-.editor {
-  max-width: 40%;
-  margin: 20px auto;
-}
-
-.previewer {
-  max-width: 70%;
-  margin: auto;
-}
-
-
-.editor, .previewer{
-  border: solid 1px black;
-}
-
